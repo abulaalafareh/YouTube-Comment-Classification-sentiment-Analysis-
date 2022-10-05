@@ -44,7 +44,7 @@ class Parent:
             print()
         
             # api_key = txtfld_api.get()  # Replace this dummy api key with your own.
-            api_key = 'AIzaSyAe8XUDG7Jf5yK7zT7uOYBU55OlPRonfvs'
+            api_key = ''
             from apiclient.discovery import build
             youtube = build('youtube', 'v3', developerKey=api_key)
             
